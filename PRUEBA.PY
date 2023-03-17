@@ -12,7 +12,6 @@ class base_test(unittest.TestCase):
     def test1(self):
         driver = self.driver
         driver.get("https://www.google.com.mx/")
-    
 
     def tearDown(self):
         driver = self.driver
