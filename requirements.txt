@@ -1,2 +1,2 @@
 jira
-python
+python 3.11
