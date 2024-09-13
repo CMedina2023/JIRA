@@ -2,7 +2,7 @@ name: Ejecutar prueba automatizada y actualizar Jira
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   schedule:
     - cron: '0 0 * * *' # Programado para ejecutarse todos los días a medianoche
 
