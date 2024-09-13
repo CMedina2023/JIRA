@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: '0 0 * * *' # Programado para ejecutarse todos los días a medianoche
+    - cron: '0 * * * *' # Programado para ejecutarse todos los días a medianoche
 
 jobs:
   run-tests:
